@@ -59,7 +59,7 @@ export default function ForgotPassword() {
         // }
       } else {
         // Redirect to the dashboard page
-        router.push("/forgot-password/reset-password");
+        router.push("/forgot-password/confirmation");
       }
     } catch (error) {
       setServerError("An unexpected error occurred. Please try again.");

@@ -3,7 +3,6 @@
 import { z } from "zod";
 
 import { createClient } from "@/utils/supabase/server";
-import { passwordSchema } from "@/validation/passwordSchema";
 
 export const resetPasswordFunc = async ({
   password,

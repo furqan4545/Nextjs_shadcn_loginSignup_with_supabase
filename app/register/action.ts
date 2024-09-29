@@ -3,8 +3,8 @@
 import { passwordMatchSchema } from "@/validation/passwordMatchSchema";
 import { z } from "zod";
 
-import { revalidatePath } from "next/cache";
-import { redirect } from "next/navigation";
+// import { revalidatePath } from "next/cache";
+// import { redirect } from "next/navigation";
 
 import { createClient } from "@/utils/supabase/server";
 

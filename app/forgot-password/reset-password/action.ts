@@ -47,6 +47,6 @@ export const resetPasswordFunc = async ({
   // User successfully created
   return {
     success: true,
-    message: "Check your email for the confirmation link",
+    message: "Password reset successful",
   };
 };
